@@ -1,44 +1,22 @@
-# JavaScript
-
-## An Introduction
-
-
------
+# JavaScript - An Introduction
 
 ## What is JavaScript?
 
------
+#### It's not Java!
 
-## What is JavaScript?
+> JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
 
-#### Well, it's not Java!
 
------
+## What is Programming?
 
-## What is JavaScript?
+> Writing instructions for your computer to execute at a later time.
 
-JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
-
------
-
-## So, What is Programming?
-
------
-
-## So, What is Programming?
-
-Writing instructions for your computer 
-to execute at a later time.
-
------
 
 ## The Modern Web
 
 * The Content Layer (HTML)
 * The Design Layer (CSS)
 * The Interactive Layer (JavaScript)
-
------
 
 ## What Is JavaScript Used For?
 
@@ -48,16 +26,12 @@ to execute at a later time.
 - Interactive elements - [here](http://codepen.io/twhitacre/full/MwKXxz/)
 - Build a full backend - [here](http://nodejs.org/)
 
------
-
 ## Some "Parts" of A Programming Language
 
 * Syntax
 * Data Types
 * Variables
 * Expressions
-
------
 
 ## Syntax
 
@@ -71,8 +45,6 @@ document.getElementById('header');
 * `()`: function call
 * `'header'`: parameter
 
------
-
 ## Data Types
 
 * `Number` looks like: *1* or *500* or *3.14*
@@ -80,8 +52,6 @@ document.getElementById('header');
 * `Boolean` looks like *true* or *false*
 * `Null` is an empty value: *null*
 * `Undefined` is the absence of a value: *undefined*
-
------
 
 ##  Variables
 
@@ -103,8 +73,6 @@ Shorthand (Declare and assign)
 var firstName = 'Tim';
 ```
 
------
-
 ## Variables (Rules)
 
 - Begin with letters, $ or _
@@ -112,14 +80,12 @@ var firstName = 'Tim';
 - Case sensitive
 - No reserved words - [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords)
 
------
 
 ## Variables (Conventions)
 
 - camelCase vs using _'s
 - Choose and stick with a convention
 
------
 
 ## Expressions
 
@@ -131,8 +97,6 @@ var age = 2014 - 1983;
 var greeting = "My name is Tim and I am " + age + " years old";
 var isOld = age > 100;
 ```
-
------
 
 ## Comments
 
@@ -147,7 +111,7 @@ var a = 1;
 var b = 2;
 var c = 1 + 2;
 ```
------
+
 
 ## Arithmetic
 
@@ -158,7 +122,6 @@ var c = 25 / 5; // 5
 var d = b - c; // 15
 ```
 
------
 
 ## Functions
 
@@ -171,4 +134,3 @@ function greet (name) {
 
 greet(“Tim”); // Hello, Tim!
 ```
------
